@@ -13,6 +13,10 @@ public class MathUtilLiver {
         // TODO code application logic here
         long result = MathUtil.getFactorial(5);
         System.out.println(result);
+        //Thêm code sau lần đầu tiên chơi với git-Đưa code lên Server  5:18pm(10/2/2026)
+        System.out.println("expected: 0! = 1; actual: " + MathUtil.getFactorial(0));
+        System.out.println("expected: 1! = 1; actual: " + MathUtil.getFactorial(1));
+        System.out.println("expected: 3! = 6; actual: " + MathUtil.getFactorial(3));
     }
     
 }
